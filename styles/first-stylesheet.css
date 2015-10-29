@@ -1,0 +1,17 @@
+html {
+  background-image: linear-gradient(180deg,rgb(102,0,51) 0%, rgb(153,51,255) 100%);
+}
+
+body {
+  margin: 0 auto;
+  /* setting the padding within the sheet: top, right, bottom, left */
+  padding: 2em 2em 2em 4em; 
+  max-width: 800px;
+  /* font settings */
+  font-family: helvetica;
+  font-size: 14px;
+  /* creating a beige background for text */
+  line-height: 2em;
+  color: 545454;
+  background-color: beige
+}
