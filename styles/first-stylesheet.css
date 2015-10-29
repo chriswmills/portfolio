@@ -5,7 +5,7 @@ html {
 body {
   margin: 0 auto;
   /* setting the padding within the sheet: top, right, bottom, left */
-  padding: 2em 2em 2em 4em; 
+  padding: 2em 2em 2em 2em; 
   max-width: 800px;
   /* font settings */
   font-family: helvetica;
@@ -16,5 +16,19 @@ body {
 }
 
 img {
-  box-shadow: 10px 10px 5px grey;
+  /* border and shadow for images */
+  box-shadow: -10px 10px 5px grey;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-color: ghostwhite;
+}
+
+li {
+  /* styling listed elements */
+  position: relative;
+  left: 230px;
+  bottom: 100px;
+  list-style-type: square;
+  font-family: cursive;
+  font-size: 18px;
 }
