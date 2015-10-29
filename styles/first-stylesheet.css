@@ -2,9 +2,9 @@ html {
   background-image: linear-gradient(180deg,rgb(135,206,250) 0%, rgb(176,196,222) 100%);
 }
 
+/* setting the padding within the sheet: top, right, bottom, left */
 body {
   margin: 0 auto;
-  /* setting the padding within the sheet: top, right, bottom, left */
   padding: 2em 2em 2em 2em; 
   max-width: 800px;
   /* font settings */
@@ -15,20 +15,32 @@ body {
   background-color: floralwhite;
 }
 
+/* border and shadow for images */
 img {
-  /* border and shadow for images */
   box-shadow: -10px 10px 5px grey;
   border-style: solid;
   border-bottom-width: 1px;
   border-color: ghostwhite;
 }
 
+/* styling listed elements */
 li {
-  /* styling listed elements */
   position: relative;
   left: 230px;
   bottom: 100px;
   list-style-type: square;
   font-family: cursive;
   font-size: 18px;
+  letter-spacing: 1px;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #990000;
+}
+
+
+
